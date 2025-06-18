@@ -1,0 +1,26 @@
+import java.util.*;
+class  Sum_Of_Number_Range{
+    public static void main(String[]args){
+        
+        https://www.onlinegdb.com/#editor_1Scanner sc = new Scanner(System.in);
+        System.out.println(" Enter first Number ");
+        int n1= sc.nextInt();
+        System.out.println(" Enter Second Number ");
+        int n2 = sc.nextInt();
+        int sum =0;
+        
+        if (n1>n2){
+            for (int i=n2; i<=n1;i++)
+            
+            sum+=i;
+            
+        }
+        else{
+            for(int j = n1; j<=n2;j++)
+            
+              sum+=j;
+        }
+        
+        System.out.println(" Sum of the Number in the given Range : " +sum);
+    }
+}
