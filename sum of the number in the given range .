@@ -2,7 +2,7 @@ import java.util.*;
 class  Sum_Of_Number_Range{
     public static void main(String[]args){
         
-        https://www.onlinegdb.com/#editor_1Scanner sc = new Scanner(System.in);
+        
         System.out.println(" Enter first Number ");
         int n1= sc.nextInt();
         System.out.println(" Enter Second Number ");
